@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITimeProvider API Reference</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>ITimeProvider Interface</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Description</h2>
+            <p>The <strong>ITimeProvider</strong> interface defines a contract for providing time values. It serves as the foundation for all time-related systems in FreeTime.</p>
+        </section>
+        <section>
+            <h2>Namespace</h2>
+            <p><code>SideOrderCode.FreeTime</code></p>
+        </section>
+        <section>
+            <h2>Properties</h2>
+            <ul>
+                <li>
+                    <strong>DeltaTime</strong>: <code>float</code><br>
+                    The time delta for frame updates. Typically corresponds to Unity's <code>Time.deltaTime</code>.
+                </li>
+                <li>
+                    <strong>FixedDeltaTime</strong>: <code>float</code><br>
+                    The time delta for fixed updates. Typically corresponds to Unity's <code>Time.fixedDeltaTime</code>.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Usage</h2>
+            <pre><code>using SideOrderCode.FreeTime;
+
+public class ExampleTimeProvider : ITimeProvider
+{
+    public float DeltaTime => Time.deltaTime;
+    public float FixedDeltaTime => Time.fixedDeltaTime;
+}</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Side Order Code</p>
+    </footer>
+</body>
+</html>
