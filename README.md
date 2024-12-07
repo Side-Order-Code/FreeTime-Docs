@@ -25,7 +25,7 @@ Use this repository to:
 
 FreeTime is a Unity package designed to enhance time management in games and applications. It offers customizable time systems, localized time zones, and event-driven timers for more control and flexibility.
 
-For the source code, visit the [FreeTime Code Base](https://github.com/yourusername/freetime).
+For the source code, visit the [FreeTime Code Base](https://github.com/side-order-code/freetime).
 
 ---
 &copy; 2024 Side Order Code
